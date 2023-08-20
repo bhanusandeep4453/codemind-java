@@ -1,8 +1,8 @@
 import java.util.*;
-public class main{
+public class bhanu{
     public static void main(String[] args){
         Scanner x=new Scanner (System.in);
-        int s=0,q,r,n;
+        int n,s=0,r,q;
         n=x.nextInt();
         q=n;
         while(q!=0){
@@ -11,7 +11,7 @@ public class main{
             q=q/10;
         }
         if(s==n){
-            System.out.print("True");
+            System.out.print("True");   
         }else{
             System.out.print("False");
         }
