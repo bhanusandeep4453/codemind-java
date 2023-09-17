@@ -11,7 +11,7 @@ public class bhanu{
         }
         for(int i:arr){
             if(i%k==0){
-                c+=1;
+                c++;
             }
         }
         System.out.print(c);
