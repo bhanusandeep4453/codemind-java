@@ -1,21 +1,21 @@
-import java.util.*;
-public class Bhanu {
+import java.util.Scanner;
+public class Bhanu{
     public static void main(String[] args) {
-        Scanner x = new Scanner(System.in);
-        int n,sum=0,c=0;
-        n = x.nextInt();
-        int[] arr = new int[n];
-        for (int i=0;i<n;i++) {
+        Scanner x=new Scanner(System.in);
+        int n=x.nextInt();
+        int[] arr=new int[n];
+        int sum=0;
+        for (int i=0;i<n;i++){
             arr[i]=x.nextInt();
             sum+=arr[i];
         }
         int avg=sum/n;
-        for (int j:arr){
-            if (j>=avg){
-                c+=1;
+        int c=0;
+        for (int i=0;i<n;i++) {
+            if(arr[i]>=avg) {
+                c++;
             }
         }
-
         System.out.print(c);
     }
 }
