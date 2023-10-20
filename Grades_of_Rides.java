@@ -1,23 +1,23 @@
 import java.util.*;
-public class main{
+public class Bhanu{
     public static void main(String[] args){
-        Scanner x=new Scanner(System.in);
-        int a,b,c;
-        a=x.nextInt();
-        b=x.nextInt();
-        c=x.nextInt();
-        if(a>50&&b>60&&c>100){
-            System.out.printf("10");
-        }else if(a>50&&b>60){
-            System.out.printf("9");
-        }else if(b>60&&c>100){
-            System.out.printf("8");
-        }else if(a>50&&c>100){
-            System.out.printf("7");
-        }else if(a>50||b>60||c>100){
-            System.out.printf("6");
+        Scanner x=new Scanner (System.in);
+        int h,sp,s;
+        h=x.nextInt();
+        sp=x.nextInt();
+        s=x.nextInt();
+        if(h>50 && sp>60 && s>100){
+            System.out.print("10");
+        }else if(h>50 && sp>60){
+            System.out.print("9");
+        }else if(sp>60 && s>100){
+            System.out.print("8");
+        }else if(h>50 && s>100){
+            System.out.print("7");
+        }else if(h>50 || sp>60 || s>100){
+            System.out.print("6");
         }else{
-            System.out.printf("5");
+            System.out.print("5");
         }
     }
 }
